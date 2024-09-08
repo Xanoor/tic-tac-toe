@@ -14,7 +14,7 @@ You can upgrade the script to get the result you want, just ask me before publis
 
 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/Xanoor/tic-tac-toe/blob/main/Screenshot.png)
 
 
 ## Support
