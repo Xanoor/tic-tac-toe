@@ -1,0 +1,72 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(84,85,106,1) 0%, rgba(51,51,106,1) 35%, rgba(32,122,139,1) 68%, rgba(0,173,167,1) 100%); 
+    animation: bgGradient 15s ease infinite;
+    background-size: 200% 200%;
+}
+
+.container {
+    min-width: 210px;
+    min-height: 255px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: white; 
+}
+
+.case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin: 4px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(155, 154, 154);
+    transition: all 0.5s ease;
+    cursor: cell;
+}
+
+.case:hover {
+    transform: scale(1.05) rotate(20deg);
+}
+
+.row {
+    display: flex;
+}
+
+#playAgain {
+    background: none;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+}
+
+#playAgain:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+/* ANIMATED GRADIENT */
+@keyframes bgGradient { 
+    0%{
+        background-position:10% 0%
+    }
+    50%{
+        background-position:91% 100%
+    }
+    100%{
+        background-position:10% 0%
+    }
+}
